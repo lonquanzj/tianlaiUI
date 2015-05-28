@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:id="@+id/rg_huangxiangqi_set1"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_huangxiang_set1"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/set1"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/rb_huangxiang_set2"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/set2"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/rb_huangxiang_set3"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/set3"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/rb_huangxiang_set4"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/set4"
+            android:button="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_huanXiangQiSet1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="配置1" />
+
+        <TextView
+            android:id="@+id/tv_huanXiangQiSet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+              android:gravity="center_horizontal"
+            android:text="配置2" />
+
+        <TextView
+            android:id="@+id/tv_huanXiangQiSet3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="配置3" />
+
+        <TextView
+            android:id="@+id/tv_huanXiangQiSet4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="配置4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+         android:id="@+id/rg_huangxiangqi_set2">
+
+        <RadioButton
+            android:id="@+id/rb_huangxiang_set5"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/set5"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/rb_huangxiang_set6"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/set6"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/rb_huangxiang_set7"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/set7"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/rb_huangxiang_set8"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/zdy"
+            android:button="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_huanXiangQiSet5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="配置5" />
+
+        <TextView
+            android:id="@+id/tv_huanXiangQiSet6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+              android:gravity="center_horizontal"
+            android:text="配置6" />
+
+        <TextView
+            android:id="@+id/tv_huanXiangQiSet7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="配置7" />
+
+        <TextView
+            android:id="@+id/tv_huanXiangQiSet8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+            android:layout_weight="0"
+            android:text="自定义配置" />
+    </LinearLayout>
+	<RadioButton 
+	    android:id="@+id/rb"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+	    />
+</LinearLayout>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/layout_shape"
+    android:orientation="vertical"
+    android:padding="10dp" >
+	<TextView
+	    android:id="@+id/tv_shanBiCurrentSet"
+	     android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:text="当前配置:"
+	    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="闪避门限:" />
+
+        <SeekBar
+            android:id="@+id/sb_shanbimenxian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="100"
+            android:progress="50"
+            />
+
+        <TextView
+            android:id="@+id/tv_shanbimx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0"
+            android:text="50" />
+
+        <Button
+            android:id="@+id/btn_shanbimx_add"
+            android:layout_width="@dimen/btn_shanbi_width"
+            android:layout_height="@dimen/btn_shanbi_height"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_shape"
+            android:text="+"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_shanbimx_sub"
+            android:layout_width="@dimen/btn_shanbi_width"
+            android:layout_height="@dimen/btn_shanbi_height"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_shape"
+            android:text="-"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="闪避速度:" />
+
+        <SeekBar
+            android:id="@+id/sb_shanbispeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:max="100"
+            android:progress="50"
+            />
+
+        <Button
+            android:id="@+id/btn_shanbi_speed_add"
+            android:layout_width="@dimen/btn_shanbi_width"
+            android:layout_height="@dimen/btn_shanbi_height"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_shape"
+            android:text="+"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_shanbi_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0"
+            android:text="50" />
+
+        <Button
+            android:id="@+id/btn_shanbi_speed_sub"
+            android:layout_width="@dimen/btn_shanbi_width"
+            android:layout_height="@dimen/btn_shanbi_height"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_shape"
+            android:text="-"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp" >
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="闪避等级:" />
+
+        <SeekBar
+            android:id="@+id/sb_shanbilevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:max="100"
+            android:progress="50"
+           />
+
+        <Button
+            android:id="@+id/btn_shanbi_level_add"
+            android:layout_width="@dimen/btn_shanbi_width"
+            android:layout_height="@dimen/btn_shanbi_height"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_shape"
+            android:text="+"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_shanbi_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0"
+            android:text="50 " />
+
+        <Button
+            android:id="@+id/btn_shanbi_level_sub"
+            android:layout_width="@dimen/btn_shanbi_width"
+            android:layout_height="@dimen/btn_shanbi_height"
+            android:layout_marginLeft="5dp"
+            android:text="-"
+            android:visibility="gone" />
+    </LinearLayout>
+	<CheckBox 
+	    android:id="@+id/cb_shanbi"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="关"
+	    
+	    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        >
+   
+    <ImageButton
+        
+        android:id="@+id/btn_shanbi_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shanbi_set"
+         />
+    
+      <ImageButton
+        android:id="@+id/btn_shanbi_reset"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shanbi_reset" />
+  </LinearLayout>
+    
+  
+
+    <GridView
+        android:id="@+id/gridview_shanbi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:horizontalSpacing="5dp"
+        android:numColumns="3"
+       />
+
+</LinearLayout>
